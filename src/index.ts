@@ -1,6 +1,6 @@
 import { Elysia, t } from "elysia";
-import { userDTO } from "./user.dto";
-import { jwtConfig } from "./jwt.config";
+import { userDTO } from "./dto/user.dto";
+import { jwtConfig } from "./configs/jwt.config";
 import { swagger } from '@elysiajs/swagger';
 
 // Define the schema for the request body, including 'email' and 'password' fields
